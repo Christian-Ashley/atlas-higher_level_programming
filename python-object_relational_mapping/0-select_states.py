@@ -19,5 +19,3 @@ if __name__ == '__main__':
     staterows = cur.execute("SELECT * FROM states ORDER BY states.id;")
     for row in cur._rows:
         print(row)
-
-
